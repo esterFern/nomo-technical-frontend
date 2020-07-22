@@ -1,0 +1,61 @@
+h1 {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+h3 {
+  text-align: center;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Button {
+  background-color: #53c9b1;
+  border-radius: 28px;
+  border: 0px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 12px 40px;
+  text-decoration: none;
+  margin-top: 10px;
+  min-width: 8vw;
+}
+.Button:hover {
+  background-color: #6bd6c1;
+}
+.Button:focus {
+  outline-width: 0px;
+}
+
+.Link {
+  background-color: white;
+  border-radius: 28px;
+  border: 1px solid #53c9b1;
+  display: inline-block;
+  cursor: pointer;
+  color: #53c9b1;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 12px 40px;
+  text-decoration: none;
+  margin-top: 10px;
+  min-width: 10vw;
+  text-align: center;
+}
+
+.Not-found-message {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+h2 {
+  margin-top: 0;
+}
